@@ -16,6 +16,13 @@ jobs:
         steps:
             - name: clone my repository 
               uses: actions/checkout@v4
+
+ ### configure maven and setup maven integration with github actions.    
+            - name: setup java and maven
+              uses: actions/setup-java@v3
+              with:
+                distribution: 'temurin'
+                java-version: '17'       
               
 
        
