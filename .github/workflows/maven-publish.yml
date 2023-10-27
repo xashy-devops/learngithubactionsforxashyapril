@@ -21,7 +21,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: learn github actions step
-              run: "echo " this is my second job step one"         
+              run: echo  "this is my second job step one"         
 
 
        
