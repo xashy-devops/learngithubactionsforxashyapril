@@ -17,6 +17,12 @@ jobs:
             - name: clone my repository 
               run: echo " i am learning devops"
 
+    mysecondjob:  
+        runs-on: ubuntu-latest
+        steps:
+            - name: learn github actions step
+              run: "echo " this is my second job step one"         
+
 
        
 
