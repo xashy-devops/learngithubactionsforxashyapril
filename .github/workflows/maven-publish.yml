@@ -19,6 +19,7 @@ jobs:
 
     mysecondjob:  
         runs-on: ubuntu-latest
+        needs: myfirstjob
         steps:
             - name: learn github actions step
               run: echo  "this is my second job step one"         
